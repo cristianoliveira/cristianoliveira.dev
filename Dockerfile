@@ -9,6 +9,5 @@ COPY . .
 
 RUN yarn install
 RUN yarn test --runInBand --no-cache
+RUN yarn release
 
-EXPOSE 8080
-CMD [ "gatsby", "develop" ]
