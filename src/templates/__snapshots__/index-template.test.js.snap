@@ -4,142 +4,259 @@ exports[`IndexTemplate renders correctly 1`] = `
 <div
   className="layout"
 >
-  <StaticQuery
-    render={[Function]}
-  />
-  <div
-    className="page"
+  <header
+    className="header"
   >
     <div
-      className="page__inner"
+      className="sticky"
     >
       <div
-        className="page__body"
+        className="socialmedia"
+      >
+        <a
+          href="https://twitter.com/cristian_or_"
+          target="_blank"
+        >
+          <img
+            alt="twitter"
+            src="file"
+          />
+        </a>
+        <a
+          href="https://github.com/cristianoliveira"
+          target="_blank"
+        >
+          <img
+            alt="github"
+            src="file"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/cristianoliveiradarosa/"
+          target="_blank"
+        >
+          <img
+            alt="linkedin"
+            src="file"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/_cristianoliveira_/"
+          target="_blank"
+        >
+          <img
+            alt="instagram"
+            src="file"
+          />
+        </a>
+        <a
+          alt="medium"
+          href="https://medium.com/@cristian.oliveira"
+          target="_blank"
+        >
+          <img
+            alt="medium"
+            src="file"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="header__container"
+    >
+      <div
+        className="header__dev-info"
       >
         <div
-          className="feed"
+          className="header__logo"
         >
+          <a
+            className="header__logo"
+            href="#"
+          >
+            <img
+              alt="Cristian Oliveira"
+              src="https://avatars0.githubusercontent.com/u/3959744?s=460&v=4"
+            />
+          </a>
+        </div>
+        <div
+          className="description"
+        >
+          <h3>
+            <a
+              href="/pages/about"
+            >
+              Cristian Oliveira
+            </a>
+          </h3>
+          <span
+            className="subtitle"
+          >
+            A simple developer. Also known as the Brazilian guy that lives in Berlin, makes some code, cycles around while trying to learn German 🇩🇪
+             
+          </span>
+        </div>
+      </div>
+      <div
+        className="header__footer"
+      >
+        <a
+          href="#posts"
+        >
+          Click to check thoughts 🤔💭
+        </a>
+      </div>
+    </div>
+  </header>
+  <div
+    className="content"
+  >
+    <StaticQuery
+      render={[Function]}
+    />
+    <div
+      className="page"
+    >
+      <div
+        className="page__inner"
+      >
+        <div
+          className="page__body"
+        >
+          <h2>
+            <a
+              href="/#posts"
+              id="posts"
+            >
+              Posts
+            </a>
+          </h2>
           <div
-            className="feed__item"
+            className="feed"
           >
             <div
-              className="feed__item-meta"
+              className="feed__item"
             >
-              <time
-                className="feed__item-meta-time"
-                dateTime="September 1, 2016"
+              <div
+                className="feed__item-meta"
               >
-                September 2016
-              </time>
-              <span
-                className="feed__item-meta-divider"
-              />
-              <span
-                className="feed__item-meta-category"
+                <time
+                  className="feed__item-meta-time"
+                  dateTime="September 1, 2016"
+                >
+                  September 2016
+                </time>
+                <span
+                  className="feed__item-meta-divider"
+                />
+                <span
+                  className="feed__item-meta-category"
+                >
+                  <Link
+                    className="feed__item-meta-category-link"
+                    to="/test_0"
+                  >
+                    test_0
+                  </Link>
+                </span>
+              </div>
+              <h2
+                className="feed__item-title"
               >
                 <Link
-                  className="feed__item-meta-category-link"
+                  className="feed__item-title-link"
                   to="/test_0"
                 >
                   test_0
                 </Link>
-              </span>
-            </div>
-            <h2
-              className="feed__item-title"
-            >
-              <Link
-                className="feed__item-title-link"
-                to="/test_0"
+              </h2>
+              <p
+                className="feed__item-description"
               >
                 test_0
-              </Link>
-            </h2>
-            <p
-              className="feed__item-description"
-            >
-              test_0
-            </p>
-            <Link
-              className="feed__item-readmore"
-              to="/test_0"
-            >
-              Read
-            </Link>
-          </div>
-          <div
-            className="feed__item"
-          >
-            <div
-              className="feed__item-meta"
-            >
-              <time
-                className="feed__item-meta-time"
-                dateTime="September 1, 2016"
+              </p>
+              <Link
+                className="feed__item-readmore"
+                to="/test_0"
               >
-                September 2016
-              </time>
-              <span
-                className="feed__item-meta-divider"
-              />
-              <span
-                className="feed__item-meta-category"
+                Read
+              </Link>
+            </div>
+            <div
+              className="feed__item"
+            >
+              <div
+                className="feed__item-meta"
+              >
+                <time
+                  className="feed__item-meta-time"
+                  dateTime="September 1, 2016"
+                >
+                  September 2016
+                </time>
+                <span
+                  className="feed__item-meta-divider"
+                />
+                <span
+                  className="feed__item-meta-category"
+                >
+                  <Link
+                    className="feed__item-meta-category-link"
+                    to="/test_1"
+                  >
+                    test_1
+                  </Link>
+                </span>
+              </div>
+              <h2
+                className="feed__item-title"
               >
                 <Link
-                  className="feed__item-meta-category-link"
+                  className="feed__item-title-link"
                   to="/test_1"
                 >
                   test_1
                 </Link>
-              </span>
-            </div>
-            <h2
-              className="feed__item-title"
-            >
-              <Link
-                className="feed__item-title-link"
-                to="/test_1"
+              </h2>
+              <p
+                className="feed__item-description"
               >
                 test_1
+              </p>
+              <Link
+                className="feed__item-readmore"
+                to="/test_1"
+              >
+                Read
               </Link>
-            </h2>
-            <p
-              className="feed__item-description"
-            >
-              test_1
-            </p>
-            <Link
-              className="feed__item-readmore"
-              to="/test_1"
-            >
-              Read
-            </Link>
-          </div>
-        </div>
-        <div
-          className="pagination"
-        >
-          <div
-            className="pagination__prev"
-          >
-            <Link
-              className="pagination__prev-link"
-              rel="prev"
-              to="/page/1"
-            >
-              ← PREV
-            </Link>
+            </div>
           </div>
           <div
-            className="pagination__next"
+            className="pagination"
           >
-            <Link
-              className="pagination__next-link"
-              rel="next"
-              to="/page/3"
+            <div
+              className="pagination__prev"
             >
-              → NEXT
-            </Link>
+              <Link
+                className="pagination__prev-link"
+                rel="prev"
+                to="/page/1"
+              >
+                ← PREV
+              </Link>
+            </div>
+            <div
+              className="pagination__next"
+            >
+              <Link
+                className="pagination__next-link"
+                rel="next"
+                to="/page/3"
+              >
+                → NEXT
+              </Link>
+            </div>
           </div>
         </div>
       </div>

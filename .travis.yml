@@ -5,10 +5,7 @@ install:
   - npm install -g codecov
 script:
   - yarn install
-  - yarn lint
-  - yarn test:coverage --runInBand --no-cache
   - yarn test --runInBand --no-cache
-  - codecov
   - sh scripts/publish_changes.sh
 cache:
   directories:
