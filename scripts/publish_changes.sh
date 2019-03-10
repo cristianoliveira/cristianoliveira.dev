@@ -51,14 +51,3 @@ for f in $files ; do # Not recommended, will break on whitespace
   upload $f
 done
 
-
-# for d in $(ls -d */); do # Not recommended, will break on whitespace
-#   for f in ./$d* ; do # Not recommended, will break on whitespace
-#     upload $f
-#     # curl -u $MYBLOG_FTP_TOKEN --ftp-create-dirs -T $f ftp://ftp.cristianoliveira.com.br/$f
-#   done
-#   for f in ./$d**/* ; do # Not recommended, will break on whitespace
-#     upload $f
-#     # curl -u $MYBLOG_FTP_TOKEN --ftp-create-dirs -T $f ftp://ftp.cristianoliveira.com.br/$f
-#   done
-# done
