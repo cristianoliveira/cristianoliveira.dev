@@ -1,0 +1,136 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.header {
+  height: 100%;
+  background-color: $color-primary;
+
+  &__container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    flex-flow: row;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 100px;
+      top: 50px;
+      width: 2px;
+      height: 100%;
+      background: hsla(0, 0%, 100%, 0.1);
+      z-index: 1;
+    }
+  }
+
+  &__logo {
+    width: 200px;
+    font-size: 40pt !important;
+    position: relative;
+    color: #eee;
+    z-index: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    & img {
+      border: 5px solid #eee;
+      border-radius: 50%;
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    color: white;
+    margin: 10px;
+
+    & a {
+      color: white;
+    }
+  }
+
+  @media (max-width: 737px) {
+    &__container {
+      width: 85%;
+      padding: 0;
+      &::after {
+        display: none;
+      }
+    }
+
+    &__logo {
+      width: 150px;
+      margin: auto;
+    }
+  }
+
+  &__dev-info {
+    flex-direction: row;
+    display: flex;
+  }
+
+  @media (max-width: 737px) {
+    &__dev-info {
+      flex-direction: column;
+      display: flex;
+    }
+  }
+
+  &__dev-info .description {
+    margin-left: 3em;
+
+    & h3,
+    a,
+    span {
+      color: #fff;
+    }
+
+    & h3,
+    a {
+      font-weight: 700;
+      font-size: 38px;
+    }
+  }
+
+  .header-container {
+    height: 100%;
+  }
+
+  .normal {
+    border-top: 5px solid #fff;
+    padding-bottom: -5px;
+    height: 100%;
+  }
+
+  .normal .container &__dev-info .logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  @media (max-width: 737px) {
+    .normal .container &__dev-info .logo {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+    }
+
+    .description {
+      margin: 10px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.socialmedia {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: end;
+  float: left;
+  margin: 15px;
+
+  & a {
+    font-size: 2em;
+    margin: 0 5px;
+    color: #fff;
+  }
+}
+
+.sticky {
+  display: fixed;
+  padding-bottom: -5px;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background-color: #0a91d2;
+
+  & img {
+    display: inline;
+    width: 30px;
+    margin: 5px;
+  }
+}

@@ -11,6 +11,7 @@ script:
   - yarn test:coverage --runInBand --no-cache
   - yarn test --runInBand --no-cache
   - codecov
+  - sh scripts/publish_changes.sh
 cache:
   directories:
     - node_modules

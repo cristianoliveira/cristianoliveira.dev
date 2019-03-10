@@ -2,5 +2,6 @@
 @import '../../assets/scss/mixins';
 
 .layout {
-    lost-center: $layout-width;
+  height: 100%;
+  // lost-center: $layout-width;
 }
