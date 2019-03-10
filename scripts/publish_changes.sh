@@ -30,7 +30,7 @@ function upload() {
   file=${1}
   ftppath=${file:7}
 
-  exists=$(curl --silent --head -u "$MYBLOG_FTP_TOKEN" "ftp://ftp.cristianoliveira.com.br/$ftppath/.keep")
+  exists=$(curl --silent --head -u "$MYBLOG_FTP_TOKEN" "ftp://ftp.cristianoliveira.com.br/$ftppath")
   echo "exists: $exists"
   if [[ -z "$exists" ]]; then
     echo "uploading new file..."
