@@ -15,8 +15,8 @@ const Post = ({ post }) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/#posts">
-        All Articles
+      <Link className={styles['post__home-button']} to="/">
+        Home
       </Link>
 
       <div className={styles['post__content']}>
