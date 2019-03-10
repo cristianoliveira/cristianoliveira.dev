@@ -4,7 +4,7 @@ import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
 import Meta from './Meta';
-import Tags from './Tags';
+import Tags from './Tags/Tags';
 import styles from './Post.module.scss';
 
 const Post = ({ post }) => {
