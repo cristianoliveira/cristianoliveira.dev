@@ -7,6 +7,6 @@ script:
   - yarn install
   - yarn test --runInBand --no-cache
   - sh scripts/publish_changes.sh
-cache:
-  directories:
-    - node_modules
+# cache:
+#   directories:
+#     - node_modules
