@@ -6,9 +6,9 @@ exports[`Post renders correctly 1`] = `
 >
   <Link
     className="post__home-button"
-    to="/"
+    to="/#posts"
   >
-    Home
+    All Articles
   </Link>
   <div
     className="post__content"

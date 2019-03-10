@@ -2,8 +2,10 @@ language: node_js
 node_js:
   - '10'
 install:
-  - yarn install
+  - npm install -g codecov
 script:
+  - yarn install
+  - yarn test --runInBand --no-cache
   - sh scripts/publish_changes.sh
 cache:
   directories:
