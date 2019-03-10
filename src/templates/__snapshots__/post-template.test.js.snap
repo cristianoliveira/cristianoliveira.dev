@@ -9,9 +9,9 @@ exports[`PostTemplate renders correctly 1`] = `
   >
     <Link
       className="post__home-button"
-      to="/#posts"
+      to="/"
     >
-      All Articles
+      Home
     </Link>
     <div
       className="post__content"
