@@ -8,7 +8,9 @@ install:
 script:
   - yarn install
   - yarn test --runInBand --no-cache
+after_success:
   - yarn release
+
 cache:
   directories:
     - node_modules
