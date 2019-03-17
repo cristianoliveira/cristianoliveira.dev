@@ -6,9 +6,9 @@ draft: false
 slug: '/posts/same-same-but-different/'
 category: 'React'
 tags:
-  - 'React'
+  - 'react'
   - 'development'
-  - 'Design Patterns'
+  - 'design patterns'
 description: 'Everything is global nowadays; when we build a product with the aim to be in a global market we start to realize how big is the difference between countries, cultures and even perceptions for the same idea. Furthermore, as developers, we notice that our codebase starts to reflect these differences. This is especially for UI, where we try to achieve the most enjoyable experience for all cultures.'
 ---
 

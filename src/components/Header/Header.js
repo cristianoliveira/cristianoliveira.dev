@@ -28,7 +28,7 @@ function Header() {
           </div>
         </div>
         <div className={styles['header__footer']}>
-          <a href="#posts">Click to check thoughts 🤔💭</a>
+          <a href="#posts">Click here to check thoughts 🤔💭</a>
         </div>
       </div>
     </header>

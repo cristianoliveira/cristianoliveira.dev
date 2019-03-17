@@ -3,8 +3,7 @@
 module.exports = {
   url: 'https://cristianoliveira.net',
   title: "Cristian Oliveira's thoughts",
-  subtitle:
-    'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'A developer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,7 +11,7 @@ module.exports = {
   menu: [
     {
       label: 'Articles',
-      path: '/#posts',
+      path: '/posts/all',
     },
     {
       label: 'About me',
@@ -26,8 +25,7 @@ module.exports = {
   author: {
     name: 'Cristian Oliveira',
     photo: 'profile.jpeg',
-    bio:
-      'Software Developer with 10 years of experience currently working in Berlin.',
+    bio: 'Here I write about software, web and other stuff too.',
     contacts: {
       email: 'contact@cristianoliveira.net',
       twitter: 'cristian_or_',
