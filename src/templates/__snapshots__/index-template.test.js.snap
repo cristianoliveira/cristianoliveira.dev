@@ -70,15 +70,10 @@ exports[`IndexTemplate renders correctly 1`] = `
         <div
           className="header__logo"
         >
-          <a
-            className="header__logo"
-            href="#"
-          >
-            <img
-              alt="Cristian Oliveira"
-              src="https://avatars0.githubusercontent.com/u/3959744?s=460&v=4"
-            />
-          </a>
+          <img
+            alt="Cristian Oliveira"
+            src="https://avatars0.githubusercontent.com/u/3959744?s=460&v=4"
+          />
         </div>
         <div
           className="description"
@@ -104,7 +99,7 @@ exports[`IndexTemplate renders correctly 1`] = `
         <a
           href="#posts"
         >
-          Click to check thoughts 🤔💭
+          Click here to check my 🤔💭
         </a>
       </div>
     </div>
