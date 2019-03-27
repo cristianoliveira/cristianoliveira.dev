@@ -9,12 +9,10 @@ function Header() {
       <div className={styles['header__container']}>
         <div className={styles['header__dev-info']}>
           <div className={styles['header__logo']}>
-            <a href="#" className={styles['header__logo']}>
-              <img
-                src="https://avatars0.githubusercontent.com/u/3959744?s=460&v=4"
-                alt="Cristian Oliveira"
-              />
-            </a>
+            <img
+              src="https://avatars0.githubusercontent.com/u/3959744?s=460&v=4"
+              alt="Cristian Oliveira"
+            />
           </div>
           <div className={styles['description']}>
             <h3>
@@ -28,7 +26,7 @@ function Header() {
           </div>
         </div>
         <div className={styles['header__footer']}>
-          <a href="#posts">Click here to check thoughts 🤔💭</a>
+          <a href="#posts">Click here to check my 🤔💭</a>
         </div>
       </div>
     </header>
